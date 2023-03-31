@@ -450,7 +450,7 @@ define([
                             button.text('Submit');
                             button.removeAttr('disabled');
                         } else {
-                            alert(JSON.stringify(dataToSend))
+                            alert(JSON.stringify(data))
                 console.log("that.data", that.data)
                 console.log("that", that)
                             that.on_refresh(data, status, xhr);
