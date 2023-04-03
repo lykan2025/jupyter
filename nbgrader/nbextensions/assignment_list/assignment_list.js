@@ -33,6 +33,8 @@ define([
         this.base_url = options.base_url || utils.get_body_data("baseUrl");
 
         this.data = undefined;
+
+        console.log("hiiiiiii")
     };
 
     CourseList.prototype.bind_events = function () {
